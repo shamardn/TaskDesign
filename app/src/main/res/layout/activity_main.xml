@@ -48,7 +48,7 @@
                 android:layout_marginTop="@dimen/margin_s_8"
                 android:fontFamily="@font/dm_sans_m"
                 android:gravity="center_vertical"
-                android:text="Engineer"
+                android:text="@string/tv_job_title"
                 android:textColor="@color/color_medium_text_87op"
                 android:textSize="@dimen/text_size_med_12sp"
                 android:textStyle="normal"/>
@@ -58,15 +58,15 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/margin_s_8"
-                android:drawableStart="@drawable/ic_location"
                 android:drawablePadding="@dimen/padding_tiny_4"
-                android:drawableTint="@color/location_icon_tint_color"
+                app:drawableTint="@color/location_icon_tint_color"
                 android:fontFamily="@font/dm_sans_regular"
                 android:gravity="center_vertical"
                 android:text="@string/country"
                 android:textColor="@color/color_rd_text"
                 android:textSize="@dimen/text_size_m_13sp"
-                android:textStyle="normal" />
+                android:textStyle="normal"
+                app:drawableStartCompat="@drawable/ic_location" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -96,9 +96,9 @@
                     android:textColor="@color/black"
                     android:textSize="@dimen/text_size_med_12sp"
                     android:textStyle="bold"
-                    android:drawableEnd="@drawable/ic_star"
-                    android:drawableTint="#F9D100"
-                    android:drawablePadding="@dimen/padding_tiny_4"/>
+                    android:drawablePadding="@dimen/padding_tiny_4"
+                    app:drawableEndCompat="@drawable/ic_star"
+                    app:drawableTint="#F9D100" />
             </LinearLayout>
 
         </LinearLayout>
