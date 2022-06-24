@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="img_93">93dp</dimen>
+    <dimen name="margin_m_12">12dp</dimen>
+    <dimen name="margin_l_16">16dp</dimen>
+    <dimen name="text_size_large_16sp">16sp</dimen>
+    <dimen name="margin_s_8">8dp</dimen>
+    <dimen name="text_size_med_12sp">12sp</dimen>
+    <dimen name="padding_tiny_4">4dp</dimen>
+    <dimen name="text_size_m_13sp">13sp</dimen>
+    <dimen name="padding_s_8">8dp</dimen>
+</resources>

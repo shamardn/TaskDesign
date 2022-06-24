@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TaskDesign</string>
+    <string name="user_name">Wael Shamardn</string>
+    <string name="country">EG</string>
+    <string name="reviews_count">(150 Reviews)</string>
+    <string name="rating">4.5</string>
+    <string name="time">3 hr</string>
+    <string name="language">Russian</string>
+    <string name="last_time">5 Days ago</string>
+</resources>
